@@ -1,0 +1,35 @@
+.house {
+  width: 300px;
+  height: min-content;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgb(230, 230, 230);
+  text-align: center;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.bar {
+  height: 18px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.founder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
