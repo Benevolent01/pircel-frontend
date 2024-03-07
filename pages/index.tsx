@@ -15,7 +15,7 @@ const IndexPage: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const result = await axios.get("http://localhost:4000/houses");
+        const result = await axios.get("https://wizard-world-api.herokuapp.com/houses");
         const len = result.data.length;
         setHouses(result.data);
         setTotalPages(Math.ceil(len / PAGE_SIZE));
